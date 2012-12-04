@@ -42,7 +42,9 @@ while not_empty(coke)
 				end
 			end
 
-	puts "#{coke}"
+	coke.each do |type, quanity|
+		puts "Now there are: #{quanity} #{type}s in the machine"
+	end
 
 end
 
